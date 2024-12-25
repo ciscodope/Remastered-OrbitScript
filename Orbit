@@ -1,4 +1,4 @@
-Service("Players")
+local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
 local LocalPlayer = Players.LocalPlayer
@@ -194,7 +194,7 @@ RadiusCorner.Parent = RadiusDisplay
 local Watermark = Instance.new("TextLabel")
 Watermark.Size = UDim2.new(1, 0, 0, 20)
 Watermark.Position = UDim2.new(0, 0, 1, -20)
-Watermark.Text = "Super Ring [V4] by lukas"
+Watermark.Text = "@cis0lz on discord / @owlruin on tt"
 Watermark.TextColor3 = Color3.fromRGB(255, 255, 255) -- Dark brown
 Watermark.BackgroundTransparency = 1
 Watermark.Font = Enum.Font.Fondamento
@@ -415,4 +415,4 @@ local function SendChatMessage(message)
 end
 
 -- Send the chat message
-SendChatMessage("Super Ring Parts Remastered by ciz0ls
+SendChatMessage("Super Ring Parts Remastered By ciz0ls")
