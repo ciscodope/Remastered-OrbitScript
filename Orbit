@@ -1,4 +1,4 @@
-tService("Players")
+Service("Players")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
 local LocalPlayer = Players.LocalPlayer
